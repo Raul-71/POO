@@ -13,6 +13,12 @@ public class Bicicleta {
 			this.platoActual = platoActual;
 			this.pinonActual = pinonActual;
 		}
+		
+		public Bicicleta(){
+			velocidadActual = 0;
+			platoActual = 1;
+			pinonActual = 1;
+		}
 		//Metodos de Bicicleta
 		
 		//Aumentamos nuestra velocidad
