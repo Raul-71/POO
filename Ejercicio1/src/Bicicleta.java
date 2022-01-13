@@ -13,31 +13,32 @@ public class Bicicleta {
 			this.platoActual = platoActual;
 			this.pinonActual = pinonActual;
 		}
+		//Metodos de Bicicleta
 		
-		public void verDatos() {
-			
-			
+		//Aumentamos nuestra velocidad
+		public void acelerar() {
+		velocidadActual *= 2;
 		}
-		
-		
-		
-		/*
-		public int getVelocidadActual(){
-			return velocidadActual;
+		//Disminuimos nuestra velocidad actual
+		public void frenar() {
+		velocidadActual /= 2;
 		}
-		
-		public int getPlatoActual(){
-			return platoActual;
+		//Cambiamos nuestro plato a otro distinto
+		public void cambiarPlato(int plato) {
+			platoActual = plato;
 		}
-		
-		public int getPinonActual() {
-			return pinonActual;
+		//Cambiamos nuestro piñon a otro distinto
+		public void cambiarpinon(int pinon) {
+			pinonActual = pinon;
 		}
-		
-		
-		
-		*/
-		
 	
-
+	//Metodos sobrecargados
+		public void cambiarPlato() {
+			platoActual = 1;
+		}
+		
+		public void cambiarpinon() {
+			pinonActual = 1;
+		}
+		
 }
