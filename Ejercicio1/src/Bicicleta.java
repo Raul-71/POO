@@ -3,9 +3,9 @@ public class Bicicleta {
 
 	
 		// TODO Esbozo de método generado automáticamente
-		public int velocidadActual;
-		public int platoActual;
-		public int pinonActual;
+		private int velocidadActual;
+		private int platoActual;
+		private int pinonActual;
 		
 		
 		public Bicicleta (int velocidadActual, int platoActual, int pinonActual) {
@@ -47,4 +47,28 @@ public class Bicicleta {
 			pinonActual = 1;
 		}
 		
+		
+		 public int getVelocidadActual() {
+		        return velocidadActual;
+		    }
+		
+		  public void setVelocidadActual(int velocidadActual) {
+		        this.velocidadActual = velocidadActual;
+		    }
+		  
+		  public int getPlatoActual() {
+		        return platoActual;
+		    }
+		
+		  public void setPlatoActual(int platoActual) {
+		        this.platoActual = platoActual;
+		    }
+		
+		  public int getPinonActual() {
+		        return platoActual;
+		    }
+		
+		  public void setPinonActual(int pinonActual) {
+		        this.pinonActual = pinonActual;
+		    }
 }
