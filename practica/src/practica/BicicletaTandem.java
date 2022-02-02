@@ -22,6 +22,18 @@ public BicicletaTandem (int NumAsientos) {
 
 
 
+/**
+ * Metodos
+ */
+public void acelerar() {
+if (VelocidadActual == 0){
+VelocidadActual = 4;	
+	
+}
+else {
+VelocidadActual = VelocidadActual*4;	
+}
+}
 
 
 

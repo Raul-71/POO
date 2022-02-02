@@ -8,8 +8,8 @@ public class BicicletaApp {
 		
 		Scanner entrada = new Scanner(System.in);
 		//Creamos mibicicleta y tubicicleta
-		Bicicleta miBicicleta = new Bicicleta(1,2,3);
-		Bicicleta tuBicicleta = new Bicicleta(2,4,6);
+		BicicletaMontana miBicicleta = new BicicletaMontana(1);
+		BicicletaTandem tuBicicleta = new BicicletaTandem(2);
 		
 		
 		while (operacion == 0) {

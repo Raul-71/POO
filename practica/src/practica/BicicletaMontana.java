@@ -31,6 +31,15 @@ public void CambiarSuspension(int Suspension) {
 	
 }
 
+public void acelerar() {
+if (VelocidadActual == 0){
+VelocidadActual = 3;	
+	
+}
+else {
+VelocidadActual = VelocidadActual*3;	
+}
+}
 
 
 
