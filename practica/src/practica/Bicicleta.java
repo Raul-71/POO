@@ -5,15 +5,19 @@ package practica;
  *
  */
 public class Bicicleta {
-private int VelocidadActual = 0;
-private int PlatoActual = 0;
-private int PiyonActual = 0;
+protected int VelocidadActual = 0;
+protected int PlatoActual = 0;
+protected int PiyonActual = 0;
 
 
 /*
  * Constructores
  */
-
+public Bicicleta() {
+	 VelocidadActual = 0;
+	PlatoActual = 1;
+	 PiyonActual = 1;
+}
 
 public Bicicleta (int velocidadActual, int platoActual, int pinonActual) {
 	this.VelocidadActual = velocidadActual;
