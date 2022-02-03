@@ -38,7 +38,14 @@ VelocidadActual = VelocidadActual*4;
 
 
 
+public String VariaBici(){
+	
+	return " Velocidad de la bicicleta: "+VelocidadActual+" Piyon actual: "+ PiyonActual +" PlatoActual"+PlatoActual + " Asientos " + numAsientos;
+			
+	
+	
 
+}
 
 
 

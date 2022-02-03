@@ -41,6 +41,14 @@ VelocidadActual = VelocidadActual*3;
 }
 }
 
+public String VariaBici(){
+	
+	return " Velocidad de la bicicleta: "+VelocidadActual+" Piyon actual: "+ PiyonActual +" PlatoActual"+PlatoActual + " Suspension " + suspension;
+			
+	
+	
+
+}
 
 
 
